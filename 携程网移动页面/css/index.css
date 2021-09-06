@@ -1,0 +1,232 @@
+body {
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -moz-user-select: none;
+    max-width: 540px;
+    margin: 0 auto;
+    background: #fafafc;
+}
+div {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.search-index {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 44px;
+    max-width: 540px;
+    min-width: 320px;
+
+
+}
+.search {
+    flex: 1;
+    height: 28px;
+    margin-top: 7px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.search span {
+    margin-left: 37px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.search-a::before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 27px;
+    width: 35px;
+    height: 28px;
+    background: url(../images/user-a.png) no-repeat 0 0;
+    background-size: 21px auto;
+}
+.user {
+    position: relative;
+    width: 44px;
+    height: 44px;  
+}
+.user-a::before{
+    content: "";
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url(../images/user-a.png) no-repeat 0 -78px;
+    background-size: 21px auto;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+.user span {
+    font-size: 10px;
+    color: #9bd4f7;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.focus img {
+    display: block;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    width: 516px;
+    margin: -52px 12px 10px;
+    z-index: 11;
+    padding: 4px 0 8px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,.08);
+    border-radius: 8px;
+}
+.nav-ul {
+    display: flex;
+    height: 64px;
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+}
+.nav-ul li {
+    height: 52px;
+    flex: 1;
+
+}
+.nav-a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    color: #3d3d3d;
+    font-size: 14px;
+}
+.nav-icon {
+    width: 40px;
+    height: 40px;
+    background: url(../images/nav-icon.png) no-repeat 0 0;
+    background-size: 40px;
+}
+.main-nav {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.main-nav a:nth-child(-n+2){
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+.nav-hotel {
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-items-hotel {   
+    flex: 0 1 32%;
+    position: relative;
+    width: 31%;
+    height: 65px;
+    background: url(../images/hotel.png)no-repeat 0 0 #fa6454;
+    background-size: 73px auto;
+    background-position: right bottom;
+}
+.nav-items-hotel span {
+    line-height: 65px;
+    padding-left: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+.nav-items-minsu {
+    flex: 0 1 23%;
+    width: 23%;
+    height: 65px;
+    background: url(../images/minsu.png) no-repeat 0 0 #fb7653;
+    background-size: 37px auto;
+    background-position: left bottom;
+}
+.nav-items-minsu span {
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.nav-items-jhj {
+    width: 46%;
+    height: 65px;
+    background: url(../images/rail-fight.png) no-repeat 0 0 #ffce50;
+    background-size: 86px auto;
+    background-position: right bottom;  
+}
+.nav-items-jhj span {
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    color: #a05416;
+    font-size: 12px;
+}
+.nav-flight {
+    display: flex;
+}
+.nav-items-fight {
+    flex: 0 1 32%;
+    width: 31px;
+    height: 65px;
+    background-color: #fa6454;
+    background: url(../images/nav-flight.png) no-repeat 0 0 #4d99ed;
+    background-size: 80px auto;
+    background-position: right bottom;
+}
+.nav-items-fight span {
+    line-height: 65px;
+    padding-left: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+.nav-items-train {
+    flex: 0 1 23%;
+    width: 23%;
+    height: 65px;
+    background: url(../images/could.png) no-repeat 0 0 #4fa5ed;
+    background-size: 37px auto;
+    background-position: left bottom;
+}
+.nav-items-train span {
+    display: block;
+    text-align: center;
+    line-height: 65px;
+    font-size: 12px;
+    color: #fff;
+}
+.nav-items-car {
+    flex: 0 1 23%;
+    width: 23%;
+    height: 65px;
+    background-color: #51b0ed;
+    margin-right: 1px;
+}
+.nav-items-car span {
+    display: block;
+    text-align: center;
+    line-height: 65px;
+    font-size: 12px;
+    color: #fff;
+}
+.nav-items-zhuanche {
+    flex: 0 1 23%;
+    width: 23%;
+    height: 65px;
+    background-color: #51b0ed;
+}
+.nav-items-zhuanche span {
+    display: block;
+    text-align: center;
+    line-height: 65px;
+    font-size: 12px;
+    color: #fff;
+}
