@@ -1,0 +1,39 @@
+.media video {
+   /* width: 1440px;
+   height: 600px;  */
+   width: 1440px;
+   height: 600px;
+}
+.music {
+    width: 1440px;
+    height: 180px;
+    margin-top: 2px;
+    background-color: #ffffff;
+}
+ /* .music ul {
+    float: left;
+    width: 358px;
+    height: 200px;
+    background-color: turquoise;
+ } */
+.music ul li {
+    float: left;
+    width: 358px;
+    height: 180px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    /* line-height: 180px; */
+    text-align: center;
+    list-style: none;
+    /* background-color: tomato; */
+}
+.music ul li:nth-child(4) {
+    border-right: 0px;
+}
+.music ul li p:nth-child(1) {
+    margin-top: 35px;
+}
+.music ul li p {
+    margin-bottom: 5px;
+}

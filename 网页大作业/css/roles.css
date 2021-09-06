@@ -1,0 +1,42 @@
+.roles {
+    width: 1440px;
+    height: 720px;
+    margin-top: 3px;
+    /* background-color: thistle; */
+}
+.roles ul li {
+    float: left;
+    width: 478.3px;
+    height: 240px;
+    list-style: none;
+    border-bottom: 1px dashed #cccccc;
+    border-right: 1px dashed #cccccc;
+    background-color: #ffffff;
+}
+.roles ul li:nth-child(3) {
+    border-right: 0px;
+}
+.roles ul li:nth-child(6) {
+    border-right: 0px;
+}
+.roles ul li:nth-child(9) {
+    border-right: 0px;
+}
+.roles .rd {
+    float: left;
+    width: 152px;
+    height: 216px;
+    margin-right: 20px;
+}
+.roles .rd  img {
+    width: 100%;
+    height: 100%;
+}
+.roles .rd-text h4{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.roles .rd-text span{
+    display: block;
+    margin-bottom: 5px;
+}

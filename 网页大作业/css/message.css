@@ -1,0 +1,32 @@
+.forms {
+   height: 300px;
+   width: 1440px;
+   background-color: #ffffff; 
+}
+
+.forms-img {
+    float: left;
+    height: 300px;
+    width: 500px;
+    /* background-color: black; */
+}
+.forms-img img {
+    width: 100%;
+    height: 100%;
+}
+.self-1 {
+    float: left;
+    width: 422px;
+    height: 280px;
+    /* background-color: blue; */
+    float: left;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.self-2 {
+    float: right;
+    width: 445px;
+    height: 287px;
+    margin-top: 14px; 
+    /* background-color: brown; */
+}

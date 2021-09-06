@@ -1,0 +1,19 @@
+.plot {
+    width: 1440px;
+    height: 661px;
+    margin-top: 2px;
+    background: url(../images/uname-33.jpg);
+    background-color: #ffffff;
+}
+.plot h2 {
+    text-align: center;
+    color: #66CCCC;
+}
+.plot img {
+    width: 25%;
+    height: 30%;
+}
+.plot p {
+    color: #000000;
+    text-indent: 2em;
+}

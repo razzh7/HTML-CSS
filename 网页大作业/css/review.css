@@ -1,0 +1,20 @@
+.movie-review {
+    width: 1440px;
+    height: 760px;
+    margin-top: 3px;
+    background: url(../images/uname-36.jpg) no-repeat;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+.movie-review h2 {
+    text-align: center;
+    color: #6699CC;
+}
+.movie-review img {
+    width: 15%;
+    height: 30%;
+    margin: 10px;
+}
+.movie-review p {
+    text-indent: 2em;
+}

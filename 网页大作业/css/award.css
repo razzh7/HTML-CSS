@@ -1,0 +1,18 @@
+.award-record {
+    position: relative;
+    width: 1440px;
+    height: 420px;
+    margin-top: 3px;
+    background: url(../images/uname-37.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+.award-record ul li {
+    list-style: none;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+   font-family:Microsoft YaHei;
+   color: #00B271;
+}
