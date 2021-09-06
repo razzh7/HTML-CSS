@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  font-family: arial,verdana,helvetica,Microsoft Yahei,sans-serif;
+  color: #7e8793;
+  -webkit-font-smoothing: antialiased;
+}
+// common
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  .home-header {
+    width: 100%;
+    height: 40%;
+    background: url(../images/home-bg.png) no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    padding-bottom: 1.2rem;
+    img {
+      width: 68%;
+      margin: 2.3rem;
+    }
+    form {
+      width: 80%;
+      background-color: #fff;
+      margin: 0 auto;
+      line-height: 2.2rem;
+      border-radius: 2.2rem;
+      input {
+        font-size: 0.85rem;
+        color: #aaa;
+        border: none;
+        background: none;
+      }
+      input:focus { outline:none;}
+      button {
+        border:  none;
+        background: none;
+        font-weight: lighter;
+        color: #5bd4c7;
+        background-color: #fff;
+        margin-left: 2.666667rem;
+      }
+    }
+  }
+}
+.home-categories{
+  padding: 0 1rem;
+  dt {
+    display: flex;
+    align-items: center;
+    img {
+      height: 3rem;
+      margin-right: 1rem;
+    }
+    span {
+      color: #000;
+      font-weight: 700;
+    }
+  }
+  dd {
+    margin: 0;
+    .tag {
+      background: #f5f8f9;
+      color: #7e8793;
+      padding: 0.5rem 1rem;
+      display: inline-block;
+      border-radius: 2.2rem;
+      text-decoration: none;
+      margin: 0.2rem 0.2rem;
+      font-size: 0.8rem;
+    }
+  }
+}
+.home-footer {
+  width: 70%;
+  margin:  0 auto;
+  font-size: 0.75rem;
+  p {
+    margin: 0;
+    padding-bottom: .3rem;
+  }
+}
+
+// list-page
+.list-header {
+  padding: 0.8rem 1rem;
+  form {
+    width: 100%;
+    .inner {
+      width: 100%;
+      background: #f4f7f9;
+      border-radius: 2.2rem;
+      margin: 0 1rem;
+      padding: 0 1rem;
+      input {
+        width: 80%;
+        border: none;
+        background: transparent;
+        outline: none;
+        line-height: 1.5rem;
+        color: #8b96a6;
+        font-size: 0.5rem;
+      }
+    }
+    img {
+      height: 1.2rem;
+    }
+    button {
+      border: none;
+      background: none;
+      font-size: 0.9rem;
+      color: #5bd4c7;
+      flex-shrink: 0;
+      padding: 0;
+    }
+  }
+}
+.filter {
+  padding: 1rem;
+  border: 1px solid #f5f8f9;
+  .active {
+    dt {
+      color: #4b4b4b;
+    }
+  }
+  dl {
+    margin: 0;
+  }
+  dt {
+    font-size: 0.8rem;
+  }
+  dt:after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border: 1px solid #999;
+    border-style: solid none none solid;
+    transform: rotate(225deg);
+    transform-origin: 2px 1px;
+    margin-left: 0.5rem;
+    transition: all 0.3s;
+  }
+  .active {
+    dd {
+      display: block;
+      width: 100%;
+      height: 30%;
+      position: absolute;
+      top: 103px;
+      left: 0px;
+      border: 1px solid #f8f8f8;
+      text-indent: 1rem;
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background: #fff;
+        li {
+          line-height: 3.5rem;
+        }
+        .active {
+          background: #f8f8f8;
+          list-style-type: none;
+          color: #4b4b4b;
+        }
+      }
+    }
+    dt:after {
+      transform: rotate(45deg);
+    }
+  }  
+  dd {
+    display: none;
+    margin: 0;
+  }
+}
+// job-list
+.job-list {
+  margin: 0px;
+  padding: 0px;
+  li {
+    border-bottom: 1px solid #f5f8f9;
+    a {
+      text-decoration: none;
+      img {
+        margin: 1rem;
+        height: 5rem;
+        border-radius: 2.2rem;
+      }
+      .text {
+        width: 100%;
+        margin-left: 1rem;
+        .title {
+          color: #4b4b4b;
+          font-size: 1rem;
+          .salary {
+            font-size: 1.2rem;
+            color: #fc6c38;
+          }
+        }
+        .company {
+          margin: 0.3rem 0;
+          color: #4b4b4b;
+          font-size: 0.9rem;
+        }
+        .props {
+          color: #8b96a6;
+          font-size: 0.7rem;
+          span {
+            margin-right: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}
