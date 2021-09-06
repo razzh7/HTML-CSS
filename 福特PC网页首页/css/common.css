@@ -1,0 +1,665 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+span,p,h3,i {
+    font-family: "Antenna",Helvetica,Arial,"Microsoft YaHei","微软雅黑","STXihei","华文细黑","SimSun","宋体",sans-serif;
+}
+.w {
+    box-sizing: border-box;
+    width: 1441px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    border-bottom: 0;
+    border-top: 0;
+    background-color: purple;
+}
+
+.head-img {
+    float: left;
+    width: 625px;
+    height: 70px;
+    background-color: #ffffff;
+}
+.head-img img {
+    width: 40%;
+    height: 60%;
+    margin-top: 16px;
+    margin-left: 76px;
+}
+.head-nav {
+    /* flex: 1; */
+    float: right;
+    box-sizing: border-box;
+    width: 814px;
+    height: 70px;
+    background-color: #ffffff;
+}
+.head-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+.head-nav ul li {
+    line-height: 70px;   
+    font-size: 18px;
+    font-weight: 700;
+}
+.head-nav ul li a {
+    color: #00abde;
+}
+.head-nav .x1 {
+    font-size: 14px;
+}
+.headmid-nav {
+    position: absolute;
+    display: flex;
+    top: 70px;
+    width: 1441px;
+    height: 70px;
+    background-color: red;
+}
+.headmid-search {
+    width: 367px;
+    height: 70px;
+    background-color: #1b394e;
+}
+.headmid-search span {
+    display: block;
+    font-size: 20px;
+    color: #fffff4;
+    text-align: center;
+    line-height: 70px;
+}
+.headmid-nav-right {
+    flex: 1;
+    background-color: #2d96cd;
+}
+.headmid-nav-right ul {
+    float: left;
+    position: absolute;
+    right: 0;
+}
+.headmid-nav-right ul li {
+    float: left;
+    margin-right: 51px;
+    line-height: 70px;
+}
+.headmid-nav-right ul li a {
+    font-size: 16px;
+    color: #fffff7;
+}
+/* .content-picture {
+    background: url(../images/car-mdo.webp);
+} */
+/* .component-content {
+    height: 700px;
+    background-color: tan;
+} */
+.text {
+    position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+.text .car-price {
+    float: left;
+    position: relative;
+    width: 40%;
+    height: 159px;
+    background-color: #ffffff;
+}
+.text .car-system {
+    float: left;
+    width: 40%;
+    height: 159px;
+    /* background-color: tomato; */
+    box-sizing: border-box;
+    border-left: 0.5px solid #cccccc;
+    border-right: 0.5px solid #cccccc;
+}
+.text .car-seat {
+    background-color: #ffffff;
+    height: 159px;
+}
+.car-text p {
+    margin-left: 29px;
+    margin-top: 34px;
+    color: #616161;
+    line-height: 1.1;
+    text-indent: initial;
+    font-size: 16px;
+}
+.car-text h3 {
+    margin-left: 29px;
+    font-size: 24px;
+    color: #1b394e;
+    line-height: 1.1;
+    text-indent: initial;
+    font-weight: 300;
+}
+.car-shop {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 200px;
+    height: 62px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    background-color: #2d96cd;
+}
+.car-shop  a span {
+    display: block;
+    text-align: center;
+    font-size: 20px;   
+    color: #f2f8f2;
+}
+.car-system .notes {
+    float: left;
+}
+.car-system .notes p {
+    margin-top: 34px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #616161; 
+}
+.car-system .fuels {
+    float: left;
+}
+.car-system .fuel-1 {
+    float: left;
+    margin-top: 34px;
+    margin-left: 115px;
+    font-size: 14px;
+    color: #1b394e;  
+}
+.car-system .fuel-1 i {
+    float: left;
+    margin-top: 10px;
+    color: #1b394e;
+}
+.car-system .fuel-2 {
+    float: left;
+    margin-top: 34px;
+    margin-left: 60px;
+    font-size: 14px;
+    color: #1b394e;
+    
+}
+.car-system .fuel-2 i {
+    float: left;
+    margin-top: 10px;
+    color: #1b394e;  
+}
+.car-seat {
+    box-sizing: border-box;
+    border-left: 0.5px solid #cccccc;
+}
+.car-seat .seat-number {
+    float: left;
+    margin-left: 32px;
+    margin-top: 36px;
+    box-sizing: border-box;
+}
+.car-seat .seat-number span {
+    font-size: 14px;
+}
+.car-seat .seat-number i {
+    float: left;
+    font-size: 24px;
+    margin-top: 3px;
+    color: #1b394e;  
+}
+.car-discounts {
+    height: 600px;
+    background-color: #ffffff;
+}
+.car-discounts .car-discounts-new {
+    text-align: center;
+    line-height: 258px;
+}
+.car-discounts .car-discounts-new span {
+    font-size: 45px;
+    
+}
+.car-discounts .car-discounts-picture-1 {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background: url(../images/2020newcar.webp);
+}
+/* 2020优惠图片 */
+/* .car-discounts-picture-1 img {
+    width: 100%;
+} */
+.car-discounts-picture-1 .detail {
+    position: absolute;
+    top: 66%;
+    right: 15%;
+    width: 247px;
+    height: 44px;
+    margin-top: 10px;
+    background-color: #2d96cd;
+    text-align: center;
+    line-height: 44px;
+}
+.car-discounts-picture-1 .detail span {
+    font-size: 18px;
+    color: #ffffff; 
+}
+.car-display {
+    height: 146px;
+    background-color: #ffffff;
+    z-index: -1;
+}
+.car-display .display span {
+    display: block;
+    text-align: center;
+    line-height: 146px;
+    font-size: 45px;
+} 
+
+.car-display-picture ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* box-sizing: border-box; */
+}
+.car-display-picture ul li {
+    width: 359.7px;
+    height: 323px;  
+    background-color: tomato;
+}
+.x4 a img {
+    width: 100%;
+    height: 100%;
+}
+.safe-system .safe-system-introduce {
+    position: relative;
+   height: 240px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.safe-system .safe-system-introduce p {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #616161;
+}
+.safe-system .safe-system-introduce span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+/* 探索智行盒子 */
+.safe-system-introduce .search-safe-car {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    margin-left: -125.5px;
+    width: 251px;
+    height: 49px;
+    /* text-align: center; */
+    background-color: #2d96cd;
+}
+/* 探索智行文字 */
+.safe-system-introduce .search-safe-car span{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+.safe-system-introduce .search-safe-car span a {
+    color: #ffffff;
+}
+.safe-system-introduce-picture ul {
+    display: flex;
+}
+.safe-system-introduce-picture ul li {
+    width: 480px;
+    height: 291px;
+    background-color: #ffffff;
+}
+.safe-system-introduce-picture ul li div {
+    text-align: center;
+}
+.safe-system-introduce-picture ul li div p {
+    font-size: 24px;
+    color: #1b394e;
+}
+.car-engine {
+    height: 699px;
+    width: 100%;
+    background-color: tomato;
+}
+.car-engine .car-engine-ul ul {
+    display: flex;
+}
+.car-engine .car-engine-ul ul li {
+    width: 480.3px;
+    height: 699px;
+    background-color: #ffffff;
+}
+.car-engine .car-engine-ul ul li p {
+    font-size: 36px;
+    color: #1b394e;
+}
+.car-engine .car-engine-ul ul li span {
+    font-size: 16px;
+    color: #616161;
+}
+.car-engine .car-engine-ul ul .x1 {
+    padding-top: 100px;
+    padding-left: 117px;
+}
+.car-engine .car-engine-ul ul .x1 .search-engine {
+    margin-left: 15px;
+    margin-top: 40px;
+    width: 247px;
+    height: 44px;
+    background-color: #2d96cd;
+    text-align: center;
+    line-height: 44px;
+}
+.car-engine .car-engine-ul ul .x1 .search-engine span {
+    font-size: 18px;
+    color: #ffffff;
+}
+.car-engine .car-engine-ul ul .x2 {
+    position: relative;
+}
+.x2 .search-engine-2 {
+    position: absolute;
+    bottom: 0;
+    height: 277px;
+    width: 100%;
+    text-align: center;
+}
+.x2 .search-engine-2 .search-contact {
+    position: absolute;
+    left: 50%;
+    margin-left: -123.5px;
+    width: 247px;
+    height: 44px;
+    margin-top: 10px;
+    background-color: #2d96cd;
+    text-align: center;
+    line-height: 44px;
+}
+.x2 .search-engine-2 .search-contact span {
+    font-size: 18px;
+    color: #ffffff;      
+}
+.driver-cab {
+    height: 907px;
+    width: 100%;
+    background: url(../images/driver-cab.webp);
+    text-align: center;
+    background-color: violet;
+}
+.driver-cab p {
+    font-size: 44px;
+    color: #616161;
+}
+.driver-cab span {
+    font-size: 17px;
+    color: #616161;
+}
+.driver-cab .search-quality {
+    position: absolute;
+    left: 50%;
+    margin-left: -123.5px;
+    width: 247px;
+    height: 44px;
+    margin-top: 10px;
+    background-color: #2d96cd;
+    text-align: center;
+    line-height: 44px;
+}
+.driver-cab .search-quality span{
+    font-size: 18px;
+    color: #ffffff; 
+}
+.car-type {
+    position: relative;
+    width: 100%;
+    height: 576px;
+    background-color: #ffffff;
+}
+.car-type .cars-type {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+}
+.car-type .cars-type p {
+    float: left;
+    margin-top: 72px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: #616161;
+}
+.car-type .cars-type .car-type-contact {
+    float: right;
+    /* position: absolute;
+    top: 30%; */
+    margin-top: 72px;
+    margin-right: 100px;
+    width: 251px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #2d96cd;
+}
+.car-type .cars-type span {
+    font-size: 17px;
+    color: #2d96cd;
+}
+.car-type ul {
+    display: flex;
+    margin-top: 63px;
+    justify-content: center;
+}
+.car-type ul li {
+    width: 312px;
+    height: 284px;
+}
+.car-type ul li img {
+    width: 100%;
+}
+.car-type ul li .box-center-2 {
+    text-align: center;
+}
+.car-type ul li .box-center-2 h6 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #2d96cd;
+}
+.car-type ul li .box-center-2 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #616161;
+}
+.driver-server {
+    position: relative;
+    width: 100%;
+    height: 440px;
+    background: url(../images/drivers-server.webp);
+    background-size: 100%;
+}
+.driver-server .box-3 {
+    position: absolute;
+    top: 110px;
+    right: 60px;
+}
+.driver-server .box-3 h3 {
+    color: #1b394e;
+    font-size: 30px;
+}
+.driver-server .box-3 p {
+    color: #1b394e;
+    font-size: 30px;
+}
+.driver-server .box-3 span {
+    color: #616161;
+    font-size: 17px;
+}
+/* 福特派互联 */
+.driver-server .ford-contact {
+    position: absolute;
+    right: 27%;
+    top: 66%;
+    width: 247px;
+    height: 44px;
+    margin-top: 10px;
+    background-color: #2d96cd;
+    text-align: center;
+    line-height: 44px;
+}
+.driver-server .ford-contact span {
+    font-size: 18px;
+    color: #ffffff; 
+}
+.financial-car-purchase-services {
+    height: 353px;
+    width: 100%;
+    background-color: #1b394e;
+}
+.financial-car-purchase-services .car-servers {
+    height: 135px;
+    width: 100%;
+    text-align: center;
+    
+}
+.financial-car-purchase-services .car-servers p {
+    padding-top: 72px;
+    font-size: 42px;
+    color: #ffffff;
+}
+.financial-car-purchase-services .car-servers-method ul{
+    display: flex;
+}
+.financial-car-purchase-services .car-servers-method ul li {
+    width: 50%;
+    height: 218px;
+
+}
+.financial-car-purchase-services .car-servers-method ul li a {
+    text-align: center;
+}
+.box-4 {
+    margin-top: 54px;
+    text-align: center;
+}
+.financial-car-purchase-services .car-servers-method ul li a p {
+    font-size: 30px;
+    color: #008cba;
+}
+.car-terms {
+    height: 280px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.terms {
+    height: 81px;
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+    line-height: 81px;
+    background-color: #ffffff;
+}
+.terms p {
+    font-size: 14px;
+    color: #008cba;
+}
+.car-terms .terms-text p {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #616161;
+}
+.comprehensive-section {
+    height: 456px;
+    width: 100%;
+    background-color: #1b394e;
+}
+.comprehensive-section .black {
+    width: 100%;
+    height: 75px;
+    background-color: #343434;
+}
+.comprehensive-section .comprehensive-nav {
+    display: flex;
+    width: 100%;
+    height: 332px;
+    background-color: #252525;
+}
+/* 综合栏 */
+.comprehensive-nav .car-display-1 {
+    margin-top: 42px;
+    width: 231px;
+    height: 282px;
+}
+.comprehensive-nav .car-display-1:nth-child(1) {
+    margin-left: 136px;
+    margin-top: 42px;
+    width: 231px;
+    height: 282px;
+}
+.comprehensive-nav .car-display-1 ul p {
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 13px;
+}
+.comprehensive-nav .car-display-1 ul li {
+    margin-bottom: 13px;
+    
+}
+.comprehensive-nav .car-display-1 ul li a {
+    color: #a8a8a8;
+    font-size: 14px;
+}
+/* 报备栏 */
+.report-columns {
+    float: left;
+    width: 100%;
+    height: 122px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+.report-columns .report-column {
+    width: 513px;
+    height: 72px;
+    margin: 36px;
+    /* padding-top: 25px; */
+}
+.report-columns .report-column .report-column-top ul {
+    float: left;
+}
+.report-columns .report-column .report-column-top ul li {
+    float: left;
+}
+.report-columns .report-column .report-column-top ul li:nth-child(2) {
+    margin-left: 15px;
+}
+.report-columns .report-column .report-column-top ul li a,span {
+    font-size: 12px;
+    color: #868686;
+}
+.report-column-bottom ul{
+    float: left;
+}
+.report-column-bottom ul li{
+    float: left;
+    margin-top: 20px;
+}
+.report-column-bottom ul li:nth-child(n+2) {
+    margin-left: 13px;
+}
+.report-column-bottom ul li a {
+    font-size: 12px;
+    color: #868686;
+}
+
