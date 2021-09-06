@@ -1,0 +1,223 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  height: 2550px;
+  font-family: Microsoft Yahei, Hiragino Sans GB, Helvetica Neue, tahoma, arial, Verdana, sans-serif, WenQuanYi Micro Hei, "\5B8B\4F53";
+  box-sizing: border-box;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+.bottom-menu {
+  height: 2.65rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -1px 1px rgba(100, 100, 100, 0.1);
+  background-color: #ffffff;
+  z-index: 999;
+}
+.bottom-menu .bottom-menu-a {
+  text-decoration: none;
+  margin-top: 0.266667rem;
+}
+.bottom-menu .bottom-menu-a img {
+  width: 1.333333rem;
+  height: 1.333333rem;
+  vertical-align: middle;
+}
+.bottom-menu .bottom-menu-a .img-ford {
+  display: block;
+  width: 2.333333rem;
+  height: 1.33333rem;
+}
+.bottom-menu .bottom-menu-a div {
+  font-size: 0.266667rem;
+  text-align: center;
+}
+.bottom-menu .bottom-menu-a div span {
+  color: #f4914f;
+}
+.header {
+  float: left;
+  position: fixed;
+  width: 100%;
+  height: 2.8rem;
+  background-color: #fff;
+  justify-content: space-between;
+  margin: 0 auto;
+  z-index: 998;
+}
+.header .header-left {
+  float: left;
+  width: 5rem;
+  height: 2.55rem;
+  padding-right: 0.733333rem;
+}
+.header .header-left .locationone {
+  display: block;
+  float: left;
+  padding-left: 0.8rem;
+  padding-right: 0.1222rem;
+  line-height: 2.55rem;
+  font-size: 0.8rem;
+  color: #f4914f;
+}
+.header .header-center {
+  float: left;
+  width: 8rem;
+  height: 2.55rem;
+}
+.header .header-center img {
+  display: block;
+  margin: 0.36666rem 0 0 1.2rem;
+}
+.header .header-right {
+  float: right;
+  width: 4rem;
+  height: 2.55rem;
+  text-align: right;
+}
+.header .header-right span {
+  display: block;
+  padding-right: 0.8rem;
+  color: #f4914f;
+}
+.header .clear {
+  clear: both;
+}
+.car-Carousel {
+  margin-bottom: 1.066667rem;
+  padding-top: 3.3rem;
+}
+.car-Carousel .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.car-Carousel .swiper-slide img {
+  width: 18.2rem;
+  height: 20.89rem;
+  border-radius: 0.266667rem;
+}
+.nav-mid {
+  display: flex;
+  justify-content: center;
+}
+.nav-mid ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  text-align: center;
+  border-radius: 0.24rem;
+  box-shadow: 0 0.08rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+}
+.nav-mid ul li {
+  width: 33.3%;
+  list-style-type: none;
+}
+.nav-mid ul li img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: -0.32rem;
+  width: 2.066667rem;
+  height: 2.066667rem;
+}
+.nav-mid ul li span {
+  font-size: 0.266667rem;
+  color: #000000CC;
+}
+.carProduce {
+  box-sizing: border-box;
+  position: relative;
+  height: 1.133333rem;
+  margin: 0.8rem 0 0 0.533333rem;
+  padding-left: 0.533333rem;
+  border-left: 0.24rem solid #f4914f;
+}
+.carProduce span {
+  display: block;
+  font-weight: 700;
+  position: absolute;
+  top: -0.08rem;
+  font-size: 0.9rem;
+}
+.carProduce .more {
+  position: absolute;
+  top: 0.08rem;
+  right: 0.8rem;
+  font-size: 0.346667rem;
+  color: #acacae;
+}
+.carItems {
+  margin: 0.83333rem;
+  display: flex;
+}
+.carItems .leftImg {
+  width: 50%;
+}
+.carItems .leftImg img {
+  width: 100%;
+  height: 100%;
+}
+.carItems .cartext {
+  width: 50%;
+  margin-top: 1.333333rem;
+}
+.carItems .cartext .name {
+  margin: 0;
+  margin-bottom: 0.233333rem;
+  font-size: 0.846667rem;
+  color: #000000CC;
+}
+.carItems .cartext .price {
+  font-size: 0.666667rem;
+  color: #f4914f;
+}
+.top-img-box {
+  text-align: center;
+  margin-top: 0.8rem;
+}
+.top-img-box img {
+  width: 90%;
+}
+.recommend-cars-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}
+.recommend-cars-list li {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0.266667rem auto auto auto;
+}
+.recommend-cars-list li img {
+  width: 100%;
+}
+.recommend-cars-list li div {
+  margin-top: 0.4rem;
+  font-size: 0.266667rem;
+}

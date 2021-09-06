@@ -1,0 +1,177 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  height: 1300px;
+  background-color: #f4f5f7;
+  font-family: Microsoft Yahei, Hiragino Sans GB, Helvetica Neue, tahoma, arial, Verdana, sans-serif, WenQuanYi Micro Hei, "\5B8B\4F53";
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+.bottom-menu {
+  height: 2.65rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -1px 1px rgba(100, 100, 100, 0.1);
+  background-color: #ffffff;
+  z-index: 999;
+}
+.bottom-menu .bottom-menu-a {
+  text-decoration: none;
+  margin-top: 0.266667rem;
+}
+.bottom-menu .bottom-menu-a img {
+  width: 1.333333rem;
+  height: 1.333333rem;
+  vertical-align: middle;
+}
+.bottom-menu .bottom-menu-a .img-ford {
+  display: block;
+  width: 2.333333rem;
+  height: 1.33333rem;
+}
+.bottom-menu .bottom-menu-a div {
+  font-size: 0.266667rem;
+  text-align: center;
+}
+.bottom-menu .bottom-menu-a div span {
+  color: #f4914f;
+}
+.header {
+  float: left;
+  position: fixed;
+  width: 100%;
+  height: 2.8rem;
+  background-color: #fff;
+  justify-content: space-between;
+  margin: 0 auto;
+  z-index: 998;
+}
+.header .header-left {
+  float: left;
+  width: 5rem;
+  height: 2.55rem;
+  padding-right: 0.733333rem;
+}
+.header .header-center {
+  float: left;
+  width: 8rem;
+  height: 2.55rem;
+}
+.header .header-center img {
+  display: block;
+  margin: 0.36666rem 0 0 1.2rem;
+}
+.header .header-right {
+  float: right;
+  width: 4rem;
+  height: 2.55rem;
+  text-align: right;
+}
+.header .header-right span {
+  display: block;
+  padding-right: 0.8rem;
+  color: #666;
+}
+.move {
+  padding-top: 2.8rem;
+}
+.move .main-car-items {
+  margin: 0.8rem auto 0.8rem auto;
+  border: 1px solid #ffffff;
+  background-color: #fff;
+}
+.move .main-car-items .title {
+  margin: 0.8rem auto auto 0.533333rem;
+}
+.move .main-car-items .title p {
+  margin: 0;
+  font-size: 1.066667rem;
+}
+.move .main-car-items .content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0.533333rem auto 0.533333rem;
+}
+.move .main-car-items .content .location {
+  font-size: 0.666667rem;
+}
+.move .main-car-items .content .gohere {
+  font-size: 0.666667rem;
+}
+.move .fours {
+  width: 8%;
+  font-size: 0.266667rem;
+  background: #fee6d7;
+  color: #f4914f;
+  border-bottom: 0.03rem solid rgba(244, 145, 79, 0.5);
+  margin: 0.8rem 0.533333rem auto 0.533333rem;
+  border-radius: 0.133333rem;
+  text-align: center;
+}
+.move .boxCar {
+  background-color: #fff;
+  float: right;
+  width: 100%;
+  padding-bottom: 0.8rem;
+}
+.move .boxCar .telephone {
+  float: right;
+  margin-right: 0.533333rem;
+}
+.move .boxCar .shop {
+  float: right;
+  width: 15%;
+  height: 1.68888rem;
+  line-height: 1.68888rem;
+  text-align: center;
+  margin: auto 0.533333rem auto 0.533333rem;
+  border-radius: 0.133333rem;
+  border: 1px solid #f4914f;
+}
+.move .boxCar .shop span {
+  display: block;
+  margin-top: 0.053333rem;
+  font-size: 0.8rem;
+  color: #f4914f;
+  line-height: 1.68888rem;
+}
+.move .boxCar .sale {
+  float: right;
+  width: 20%;
+  height: 1.68888rem;
+  border-radius: 0.133333rem;
+  border: 1px solid #f4914f;
+  background-color: #f4914f;
+  text-align: center;
+  margin-right: 0.533333rem;
+}
+.move .boxCar .sale span {
+  display: block;
+  margin-top: 0.266667rem;
+  line-height: 1.68888rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #ffffff;
+}
+.move .clear {
+  clear: both;
+}
+.remind {
+  margin-left: 1.333333rem;
+}
+.remind span {
+  font-size: 0.266667rem;
+  color: #999999;
+}
