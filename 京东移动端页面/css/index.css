@@ -1,0 +1,255 @@
+body {
+    width: 100%;
+	min-width: 320px;
+	max-width:540px;
+	margin: 0 auto;
+	font-family: -apple-system,Helvetica,sans-serif;
+	font-size: 14px;
+    color: #fff;
+    height: 2000px;
+    
+}
+.app ul {
+    margin: 0px;
+    padding: 0px;
+    height: 45px;
+    line-height: 45px;
+    list-style: none;
+    text-align: center;
+}
+.app ul li {
+    float: left;
+    background-color: #333333
+}
+.app ul li:nth-child(1) {
+    width: 8%;
+    height: 45px;
+}
+.app ul li:nth-child(1) img {
+    width: 10px;
+}
+.app ul li:nth-child(2) {
+    width: 10%;
+    height: 45px;
+
+}
+.app ul li:nth-child(2) img {
+    width: 30px;
+    vertical-align: middle;
+}
+.app ul li:nth-child(3) {
+    width: 57%;
+    height: 45px;
+    font-size: 14px;
+}
+.app ul li:nth-child(4) {
+    width: 25%;
+    height: 45px;
+    font-size: 14px;
+    background-color: #f63515;
+}
+.search {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    background-color: #c82519;
+}
+.search-left {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 44px;
+
+}
+.search-left span {
+    display: block;
+    margin: 12px 5px 0 15px;
+    width: 20px;
+    height: 18px;
+    background: url(../images/search-left.png);
+    background-size: 20px 18px;
+    
+}
+.search-middle {
+    position: relative;
+    margin: 7px 50px;
+    height: 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+.middle-icon {
+    width: 20px;
+    height: 15px;
+    background: url(../images/search-jd.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    box-sizing: border-box;
+    margin: 8px 8px 0 15px;
+}
+.middle-icon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 28px;
+    width: 1px;
+    height: 15px;
+    background-color: #cccccc;
+}
+.middle-icon span {
+    display: block;
+    width: 18px;
+    height: 15px;
+    background: url(../images/jl.png) no-repeat;
+    background-position: -84px 0;
+    background-size: 200px;
+    position: absolute;
+    top: 0px;
+    left: 36px;
+}
+.search-middle input {
+    border: 0;
+    background: 0 0;
+    box-sizing: border-box;
+    padding-left: 78px;
+    height: auto;
+    line-height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.search-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 44px;
+}
+.search-right span {
+    display: inline-block;
+    margin: 13px 0;
+    color: #fff;
+    font-size: 14px;
+}
+.slider img {
+    width: 100%;
+}
+.show-img-left {
+    float: left;
+    width: 33.33%;
+}
+.show-img-left img {
+    width: 100%;
+}
+.show-img-middle {
+    float: left;
+    width: 33.33%;
+}
+.show-img-middle img {
+    width: 100%;
+}
+.show-img-right {
+    float: left;
+    width: 33.33%;
+}
+.show-img-right img {
+    width: 100%;
+}
+.mall-list{
+    padding-top: 5px;
+}
+.mall-list a {
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+.mall-list a img {
+    width: 40px;
+    margin: 10px 0;
+
+}
+.mall-list  a span {
+    display: block;
+    font-size: .6rem;
+}
+.ad {
+    float: left;
+    width: 375px;
+    height: 120px;
+    padding-left: 11px;
+    margin-top: 10px;
+}
+.ad a {
+    display: block;
+    float: left;
+    width: 177px;
+    height: 120px;
+    
+}
+.ad .img1 {
+    width: 100%;
+    border-radius: 15px 0 0 15px;
+}
+.ad .img2 {
+    width: 100%;
+    border-radius: 0 15px 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
